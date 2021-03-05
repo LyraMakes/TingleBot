@@ -1,0 +1,56 @@
+/*
+* Material UI Stylesheet
+* Compiled by LyraMakes using resources from https://material.io/ & https://stackoverflow.com/
+*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+code {
+    font-family: monospace;
+}
+/* Light text on dark background */
+.primary-text-light {
+    color: #FFFFFF;
+}
+.error-text-light {
+    color: #CF6679;
+}
+/* Dark text on light background */
+.primary-text-dark {
+    color: #FFFFFF;
+}
+.error-text-dark {
+    color: #B00020;
+}
+/* Text with Primary & Accent colors */
+.primary-text-color {
+    color: #3E50B4;
+}
+.primary-text-accent {
+    color: #FF3F80;
+}
+.background {
+    background-color: #121212;
+}
+.surface {
+    background-color: #212121;
+}
+.center {
+    margin: auto;
+    width: 75%;
+    border-radius:25px;
+    padding: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.heading{
+    height: 64px;
+}

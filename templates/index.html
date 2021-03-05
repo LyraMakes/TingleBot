@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Lyra Brooke Brown">
+        <title>TingleBot - {% block title %}{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/static/style.css" type="text/css">
+    </head>
+    <body class="background">
+        <div id="app">
+            <header class="nav-header center heading">
+                <div>
+                    <h1 class="primary-text-light left">TingleBot</h1>
+                    <span class="primary-text-light right">Currently used in {{ guilds }} servers</span>
+                </div>
+            </header>
+            <section class="surface center">
+                <div>
+                    <h2 class="primary-text-light">Currently Supported Commands</h2>
+                    <p><code>$update</code> - updates current image database from Amazon.com</p>
+                    <p><code>$tingle</code> - sends random image from database</p>
+                </div>
+            </section>
+            <footer class="center">
+                <div class="primary-text-light">
+                    <span class="left" id="credits">Powered by Repl.it,&nbsp;Flask, and Github</span>
+                    <span class="right" id="copy">&copy;2021 LyraMakes</span>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
